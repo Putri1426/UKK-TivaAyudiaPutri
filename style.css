@@ -1,0 +1,203 @@
+/* Riset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ body {
+    font-family: Arial, sans-serif;
+ }
+
+ .logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+ }
+
+ header {
+    background-color: lavender;
+    padding: 20px;
+ }
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ }
+
+ nav ul li {
+    margin-right: 20px; 
+ }
+
+ nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+ }
+
+ .btn-order {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+
+/* Hero Section */
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content p {
+    font-size: 1.9rem;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+}
+
+.btn-primary {
+    background-color: brown;
+    color: white;
+    display: inline block;
+    margin-top: 20px; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 400px;
+}
+
+/* Products Section */
+#products h2 {
+    padding: 40px 0 0 40px;
+    text-align: center;
+    color: black;
+}
+
+#products {
+    background-color: lavender;
+}
+
+.product h3 {
+    font-size: 2rem;
+}
+
+.product p {
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.product img {
+    width: 300px;
+    height: auto;
+    border-radius: 100px;
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonials h4 {
+    font-size: 2rem;
+}
+
+.testimonials p {
+    font-size: 1.3rem;
+}
+
+.testimonials img {
+    margin: 20px;
+    max-width: 300px;
+}
+
+/* Contact Section */
+#contacts {
+    padding: 40px;
+    text-align: center;
+    background-color: lavender;
+}
+
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999696;
+}
+
+#contacts h1 {
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: turquoise;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+    height: auto;
+}
